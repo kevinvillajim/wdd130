@@ -22,7 +22,7 @@ img {
 }
 
 p {
-	padding: 0px;
+	padding: 0;
 }
 
 main {
@@ -38,7 +38,7 @@ aside {
 	color: azure;
 }
 
-aside img {
+aside > aside > img {
 	width: 150px;
 	height: auto;
 }
