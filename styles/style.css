@@ -38,7 +38,7 @@ aside {
 	color: azure;
 }
 
-aside > img {
+aside img {
 	width: 150px;
 	height: auto;
 }
