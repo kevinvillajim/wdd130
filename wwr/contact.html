@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="UTF-8" />
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="styles/rafting.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,8 +46,7 @@
 			<div class="contact-map">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9399.469958370275!2d-78.29470893145714!3d-1.4035140812537232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1729473403752!5m2!1ses-419!2sec"
-					width="600" height="450" allowfullscreen="" loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"></iframe>
+					allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</section>
 
@@ -82,15 +81,22 @@
 
 					<fieldset>
 						<legend>Purpose of Message</legend>
-						<label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-						<label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-						<label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+						<label for="general"><input type="radio" id="general" name="purpose" value="general" required>
+							General
+							Inquiry</label>
+						<label for="reservation"><input type="radio" id="reservation" name="purpose"
+								value="reservation"> Reservation
+							Question</label>
+						<label for="suggestion"><input type="radio" id="suggestion" name="purpose" value="suggestion">
+							Website
+							Suggestion</label>
 					</fieldset>
 
 					<label for="message">Message:</label>
 					<textarea id="message" name="message" required></textarea>
 
-					<label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+					<label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me
+						to the monthly
 						newsletter</label>
 
 					<button type="submit">Send Message</button>

@@ -194,3 +194,9 @@ button:hover {
   display: flex;
   align-items: center;
 }
+
+iframe {
+  border: 0;
+  width: 600px;
+  height: 450px;
+}
