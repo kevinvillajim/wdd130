@@ -190,7 +190,7 @@ button:hover {
   background-color: #45a049;
 }
 
-.wireframe {
+#wireframe {
   display: flex;
   align-items: center;
 }
