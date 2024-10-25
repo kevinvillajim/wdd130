@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Contact Whitewater Rafting for inquiries, reservations, or feedback.">
+    <meta name="author" content="kevinvillajim" />
+    <meta name="keywords" content="Whitewater, Rafting, Adventure, Nature, Experience">
+    <meta name="robots" content="index, follow">
+    <title>Home - Whitewater Rafting</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" width="150" />
+        </div>
+        <h1 class="header_title">Whitewater Rafting</h1>
+        <nav>
+            <a href="index.html" title="Go to homepage">Home</a>
+            <a href="trips.html" title="Go to trips">Trips</a>
+            <a href="about.html" title="Go to about">About Us</a>
+            <a href="contact.html" title="Go to contact">Contact Us</a>
+            <a href="gallery.html" title="Go to gallery">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/home-banner.webp" alt="Rafting adventure" />
+            <h1 class="hero-title">Unleash the Adventure</h1>
+        </section>
+
+        <!-- Newsletter Signup Form -->
+        <section class="newsletter">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form action="submit_newsletter.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h3>Ready for an adventure of a lifetime?</h3>
+            <a href="trips.html" class="cta-button">Explore Our Trips</a>
+        </section>
+
+        <!-- Content Grid Section -->
+        <section class="info-grid">
+            <div class="grid-item">
+                <img src="images/river.webp" alt="Mountain rafting" />
+                <p>
+                    Experience thrilling whitewater rafting in stunning natural landscapes.
+                </p>
+            </div>
+            <div class="grid-item">
+                <img src="images/secure.png" alt="Teamwork rafting" />
+                <p>Join our experienced team for a safe and exciting adventure.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© Whitewater Rafting | 2024 - Kevin Villacreses</p>
+        <div class="social">
+            <nav class="sociallinks">
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Visit us on Facebook"><img
+                        class="social" src="images/social1.png" alt="facebook" width="50" /></a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Visit us on Instagram"><img
+                        class="social" src="images/social2.svg" alt="instagram" width="50" /></a>
+                <a href="https://www.tiktok.com/es/" target="_blank" aria-label="Visit us on Tiktok"><img class="social"
+                        src="images/social3.png" alt="tiktok" width="50" /></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
